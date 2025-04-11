@@ -1,2 +1,17 @@
-# teams-attendance-processor
-Automates the processing of daily Microsoft Teams attendance reports and compiles them into a single monthly CSV summary. Built with Python, this tool parses raw attendance logs, calculates participation duration, and determines presence based on a threshold.
+# 🕒Microsoft Teams Attendance Processor
+
+Automatically convert daily Microsoft Teams attendance CSVs into a consolidated monthly attendance sheet.
+
+## 📌 Features
+
+- ✅ Parses multiple `.csv` files from Teams daily attendance logs
+- ✅ Calculates attendance based on an 80% session duration threshold
+- ✅ Detects file encoding for robustness
+- ✅ Merges all results into a single monthly summary CSV
+- ✅ Handles inconsistent formats and missing data gracefully
+
+---
+
+## 📂 Folder Structure
+
+
