@@ -13,5 +13,17 @@ Automatically convert daily Microsoft Teams attendance CSVs into a consolidated 
 ---
 
 ## 📂 Folder Structure
+project/ <br>
+├── daily_attendance/ # Place your daily .csv files here <br>
+├── Monthly_Attendance.csv # Output file generated <br>
+├── attendance_teams.py # Main script
 
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/koushalchintakyala/teams-attendance-processor.git
+cd teams-attendance-processor 
